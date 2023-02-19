@@ -1,0 +1,110 @@
+<html>
+    <head>
+        <title>Antonia's Events-Meniu Galerry</title>
+        <link rel = "stylesheet" href = "style1.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+        <script src = "https://kit.fontawesome.com/c34831b498.js" crossorigin="anonymous"></script>
+        <link href = "https://fonts.google.com/specimen/Kaushan+Script?query=kau" rel = "styleshhet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>
+            Antonia's Events-Galeria Meniului
+        </h1>
+        <p>
+            <h2>Aperitiv</h2>
+        <div class="full-img" id="fullImgBox">
+            <img src="eu.JPG" id="fullImg">
+            <span onclick="closeFullImg()">X</span>
+        </div>
+            <div class="img-gallery">
+                <img src="blank.jpg" onclick="openFullImg(this.src)">
+                <img src="blank.jpg" onclick="openFullImg(this.src)">
+                <img src="blank.jpg" onclick="openFullImg(this.src)">
+                <img src="blank.jpg" onclick="openFullImg(this.src)">
+                <img src="blank.jpg" onclick="openFullImg(this.src)">
+                <img src="blank.jpg" onclick="openFullImg(this.src)">
+            </div>
+        </p>
+        <p>
+            <h2>Sarmale</h2>
+        <div class="full-img" id="fullImgBox">
+            <img src="blank.jpg" id="fullImg">
+            <span onclick="closeFullImg()">X</span>
+        </div>
+            <div class="img-gallery">
+                <img src="blank.jpg" onclick="openFullImg(this.src)">
+                <img src="blank.jpg" onclick="openFullImg(this.src)">
+                <img src="blank.jpg" onclick="openFullImg(this.src)">
+                <img src="blank.jpg" onclick="openFullImg(this.src)">
+                <img src="blank.jpg" onclick="openFullImg(this.src)">
+                <img src="blank.jpg" onclick="openFullImg(this.src)">
+            </div>
+        </p>
+        <p>
+            <h2>Peste</h2>
+        <div class="full-img" id="fullImgBox">
+            <img src="blank.jpg" id="fullImg">
+            <span onclick="closeFullImg()">X</span>
+        </div>
+            <div class="img-gallery">
+                <img src="blank.jpg" onclick="openFullImg(this.src)">
+                <img src="blank.jpg" onclick="openFullImg(this.src)">
+                <img src="blank.jpg" onclick="openFullImg(this.src)">
+                <img src="blank.jpg" onclick="openFullImg(this.src)">
+                <img src="blank.jpg" onclick="openFullImg(this.src)">
+                <img src="blank.jpg" onclick="openFullImg(this.src)">
+            </div>
+        </p>
+        <p>
+            <h2>Friptura</h2>
+        <div class="full-img" id="fullImgBox">
+            <img src="blank.jpg" id="fullImg">
+            <span onclick="closeFullImg()">X</span>
+        </div>
+            <div class="img-gallery">
+                <img src="blank.jpg" onclick="openFullImg(this.src)">
+                <img src="blank.jpg" onclick="openFullImg(this.src)">
+                <img src="blank.jpg" onclick="openFullImg(this.src)">
+                <img src="blank.jpg" onclick="openFullImg(this.src)">
+                <img src="blank.jpg" onclick="openFullImg(this.src)">
+                <img src="blank.jpg" onclick="openFullImg(this.src)">
+            </div>
+        </p>
+        <div class="banner-btn">
+            <h3>Daca vrei sa iti faci o rezervare:</h3>
+            <a href = "rezervare.html"><span></span>Rezervare</a>
+    
+        </div>
+        <div class="footer">
+            <div class="title-text1">
+                <p>CONTACT</p>
+                <h3>Telefonic sau pe WhatsApp<i class="fa fa-whatsapp"></i></h3>
+                <h3><i class = "fa fa-phone"></i>0723 499 627</h3>
+                <h3><i class = "fa fa-phone"></i>0734 172 837</h3>
+                <h3><i class ="fa fa-location"></i>Comuna Floresti-Stoenesti, sat Stoenesti, strada Carametesti, nr 24</h3>
+                <h3><iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d711.570166733071!2d25.714051029225246!3d44.48891555541932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b20a412d77710f%3A0x5e472196ef9ce9ce!2zU3RyLiBDYXJhbWXIm2XImXRpIDMzLCBTdG9lbmXFn3Rp!5e0!3m2!1sen!2sro!4v1676633741116!5m2!1sen!2sro" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></h3>
+                <h3>Disponibil la orice ora!</h3>
+            </div>
+            <div class="facebooklink">
+                <a href="https://www.facebook.com/dulgheruion"><i class = "fa fa-facebook"></i></a>
+            </div>
+        </div>
+        
+    <script>
+        var fullImgBox = document.getElementById("fullImgBox");
+        var fullImg = document.getElementById("fullImg");
+        function openFullImg(pic)
+        {
+            fullImgBox.style.display = "flex";
+            fullImg.src = pic;
+        }
+        function closeFullImg()
+        {
+            fullImgBox.style.display = "none";
+        }
+    </script>
+    </body>
+</html>

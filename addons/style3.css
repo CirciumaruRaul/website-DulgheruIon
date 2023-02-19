@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding: 0;
+}
+#s1
+{
+    height: 50vh;
+}
+#s2
+{
+    height: 100vh;
+}
+.hero
+{
+    width: 100%;
+    height: 100vh;
+    background:#000;
+    overflow: hidden ;
+}
+.hero h1{
+    font-size: 40px;
+    margin-top: 3%;
+    margin-left: 3%;
+    color: #f0d272;
+    font-style: italic;
+}
+.hero p{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 3%;
+    color: #f0d272;
+    font-style: italic;
+}
+.hero h2{
+    text-align: center;
+    margin-top: 1%;
+    font-size: 30px;
+    color: #f0d272;
+    font-style: italic;
+}
+.hero .carousel
+{
+    width: 250px;
+    margin: 80px auto 0;
+    overflow: visible;
+}
+.carousel img
+{
+    width: 600px;
+    height: 550px;
+    -webkit-box-reflect: below 20px linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.3));
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 770px) {
+    .carousel img
+    {
+        width: 200px;
+        height: 200px;
+    }
+    .hero h1
+    {
+        margin-top: 10%;
+        text-align: center;
+        font-size: 30px;
+    }
+    .hero .container img
+    {
+        padding-top: 7px;
+        max-width: 200px;
+        max-height: 100px;
+    }
+    .p2
+    {
+        padding-top: 9%;
+    }
+    #s2
+    {
+        height: 80vh;
+    }
+}
+.container
+{
+    text-align: center;
+    margin-top:1%;
+}
+.container img
+{
+    margin-right: 5px;
+    max-width: 500px;
+    max-height: 250px;
+}
+.container img:hover
+{
+    transform: translateY(-7px);
+}
+#footer
+{
+    padding: 100px 0 20px;
+    background: #696969;
+    position: relative;
+}
+.title-text1 p{
+    color: #f0d272;
+    text-align: center;
+    padding-bottom: 7px;
+    font-size: 50px;
+    font-weight: 20px;
+}
+.title-text1 h1{
+    text-align: center;
+    padding-bottom: 7px;
+    font-size: 25px;
+    font-weight: 5px;
+    color: #f0d272;
+}
+.footer-img
+{
+    max-width: 300px;
+    opacity: 0.3;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.facebooklink
+{
+    text-align: center;
+}
+.facebooklink .fa{
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    border: 1px solid #f0d272;
+    margin: 40px 5px 0;
+    color: #f0d272;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.facebooklink .fa:hover
+{
+    background: #f0d272;
+    color:#fff;
+    transform: translateY(-7px);
+}
