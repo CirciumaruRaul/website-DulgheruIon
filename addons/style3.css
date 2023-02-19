@@ -78,6 +78,10 @@
     {
         height: 80vh;
     }
+    .map
+    {
+        max-width: fit-content;
+    }
 }
 .container
 {
