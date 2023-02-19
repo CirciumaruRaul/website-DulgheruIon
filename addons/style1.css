@@ -162,3 +162,9 @@ h3{
     color:#fff;
     transform: translateY(-7px);
 }
+@media screen and (max-width: 770px) {
+    .map
+    {
+        max-width: fit-content;
+    }
+}
