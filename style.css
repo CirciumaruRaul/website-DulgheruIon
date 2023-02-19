@@ -397,12 +397,14 @@ hr{
     position: relative;
 }
 .title-text1 p{
+    color:#D4AF37;
     text-align: center;
     padding-bottom: 7px;
     font-size: 50px;
     font-weight: 20px;
 }
 .title-text1 h1{
+    color:#D4AF37;
     text-align: center;
     padding-bottom: 7px;
     font-size: 15px;
