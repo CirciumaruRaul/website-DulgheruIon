@@ -316,40 +316,8 @@ hr{
 .descriere1 p{
     font-size: 20px;
 }
-@media screen and (min-width: 400px) and (max-width: 820px){
-    #servicii{
-        height: 100vh;
-    }
-    .servicii-box{
-        place-content: center;
-        align-items: center;
-        text-align: center;
-    }
-    .swiper
-    {
-        width: 20px;
-        height: 150px;
-    }
-    .swiper-slide img{
-        width: 20px;
-        height: 150px;
-    }
-    .serviciu-solo
-    {
-        flex-basis: 100%;
-        place-content: center;
-        align-items: center;
-        text-align: center;
-    }
-    .descriere1 p{
-        font-size: 12px;
-    }
-    hr{
-        margin: 5px auto;
-    }
-}
 
-@media screen and (max-width: 400px)
+@media screen and (max-width: 450px)
 {
     #servicii{
         height: 100vh;
