@@ -360,11 +360,11 @@ hr{
     .swiper
     {
         width: 200px;
-        height: fit-content;
+        height: 100px;
     }
     .swiper-slide img{
         width: 200px;
-        height: fit-content;
+        height: 100px;
     }
     .servicii-solo
     {
