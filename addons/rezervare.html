@@ -1,21 +1,26 @@
 <html>
-    <head>
-        <title>Antonia's Events-Rezervare</title>
-        <link rel = "stylesheet" href = "style2.css">
-        <meta name = "viewport" content="device-width, initial-scale = 1">
-    </head>
-    <body>
-        <p class="p">Antonia's Events-Rezervare</p>
-        <div id = "banner">
-            <div class="banner-text">
-                <h1>Formular-Rezervare</h1>
-                <p>
-                    Va vom contacta pentru confirmarea rezervarii, iar in eventualitatea in care data respectiva nu este acesibila putem reprograma!
-                </p>
+
+<head>
+    <title>Antonia's Events-Rezervare</title>
+    <link rel="stylesheet" href="style2.css">
+    <meta name="viewport" content="device-width, initial-scale = 1">
+</head>
+
+<body>
+    <p class="p">Antonia's Events-Rezervare</p>
+    <div id="banner">
+        <div class="banner-text">
+            <h1>Formular-Rezervare</h1>
+            <p>
+                Va vom contacta pentru confirmarea rezervarii, iar in eventualitatea in care data respectiva nu este
+                acesibila putem reprograma!
+            </p>
+            <div class="formular">
                 <form action="https://formspree.io/f/mdovgkbl" method="POST">
                     <input type="text" name="Nume" placeholder="Nume si prenume" required>
                     <input type="email" name="Email" placeholder="Email" required>
-                    <input type="text" name="Numar telefon" pattern="[0-9]{10}" placeholder="Numar telefon(ex: 0764123123)" required>
+                    <input type="text" name="Numar telefon" pattern="[0-9]{10}"
+                        placeholder="Numar telefon(ex: 0764123123)" required>
                     <input type="date" name="Data" placeholder="ZZ/LL/AAAA(ex:11/11/2011)" required>
                     <select name="Pachet">
                         <option>Ornamente</option>
@@ -24,11 +29,13 @@
                         <option>Mancare</option>
                         <option>Atlceva</option>
                     </select>
-                    <button type = "submit">Trimite!</button>
+                    <button type="submit">Trimite!</button>
+                    <div class="banner-btn"><a href="../index.html"><span></span>Intoarce-te la pagina principala</a></div>
                 </form>
-                <div class ="banner-btn"><a href = "../index.html"><span></span>Intoarce-te la pagina principala</a></div>
             </div>
         </div>
+    </div>
 
-    </body>
+</body>
+
 </html>

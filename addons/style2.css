@@ -6,8 +6,8 @@
 }
 body
 {
-    background: linear-gradient(rgba(0,0,0,0.87),rgba(0,0,0,0.87)), url(blank.jpg);
-    height: 100vh;
+    background: url(../img/fundal.JPG) no-repeat;
+    height: 90vh;
     font-family: Arial, Helvetica, sans-serif;
 }
 .p
@@ -20,6 +20,10 @@ body
 }
 .banner-text
 {
+    display: grid;
+    grid-template-areas: "."
+                        "."
+                        "div1";
     place-items: center;
     align-items: center;
     text-align: center;
@@ -37,8 +41,8 @@ body
 }
 form
 {
-    margin-top: 2%;
-    margin-left: 40%;
+    /* margin-top: 2%;
+    margin-left: 40%; */
     display: flex;
     flex-direction: column;
     width: 25rem;
@@ -122,4 +126,7 @@ button
 .banner-btn a:hover
 {
     color:black;
+}
+.formular{
+    grid-area: div1;
 }
