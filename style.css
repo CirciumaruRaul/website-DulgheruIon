@@ -352,7 +352,7 @@ hr{
 @media screen and (max-width: 400px)
 {
     #servicii{
-        height: 50vh;
+        height: 80vh;
     }
     .servicii-box{
         place-content: center;
