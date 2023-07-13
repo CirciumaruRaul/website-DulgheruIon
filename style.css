@@ -317,7 +317,7 @@ hr{
     font-size: 20px;
 }
 
-@media screen and (max-width: 550px)
+@media screen and (max-width: 770px)
 {
     #servicii{
         height: 100vh;
