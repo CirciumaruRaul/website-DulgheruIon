@@ -359,11 +359,11 @@ hr{
     }
     .swiper
     {
-        width: 380px;
+        width: 200px;
         height: fit-content;
     }
     .swiper-slide img{
-        width: 380px;
+        width: 200px;
         height: fit-content;
     }
     .servicii-solo
