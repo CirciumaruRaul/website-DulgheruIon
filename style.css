@@ -322,11 +322,6 @@ hr{
     #servicii{
         height: 100vh;
     }
-    .servicii-box{
-        place-content: center;
-        align-items: center;
-        text-align: center;
-    }
     .swiper
     {
         width: 390px;
@@ -339,9 +334,6 @@ hr{
     .serviciu-solo
     {
         flex-basis: 100%;
-        place-content: center;
-        align-items: center;
-        text-align: center;
     }
     .descriere1 p{
         font-size: 12px;
