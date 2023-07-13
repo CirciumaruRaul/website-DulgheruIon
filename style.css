@@ -337,6 +337,9 @@ hr{
     .serviciu-solo
     {
         flex-basis: 100%;
+        place-content: center;
+        align-items: center;
+        text-align: center;
     }
     .descriere1 p{
         font-size: 12px;
@@ -359,7 +362,7 @@ hr{
     .swiper
     {
         width: 390px;
-        max-height: 30vh;
+        max-height: fit-content;
     }
     .swiper-slide img{
         width: 390px;
@@ -368,6 +371,9 @@ hr{
     .serviciu-solo
     {
         flex-basis: 100%;
+        place-content: center;
+        align-items: center;
+        text-align: center;
     }
     .descriere1 p{
         font-size: 12px;
