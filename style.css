@@ -325,11 +325,11 @@ hr{
     .swiper
     {
         width: 390px;
-        height: fit-content;
+        height: 100px;
     }
     .swiper-slide img{
         width: 390px;
-        height: fit-content;
+        height: 100px;
     }
     .serviciu-solo
     {
