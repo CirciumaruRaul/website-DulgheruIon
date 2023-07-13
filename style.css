@@ -362,7 +362,7 @@ hr{
     .swiper
     {
         width: 390px;
-        max-height: fit-content;
+        height: fit-content;
     }
     .swiper-slide img{
         width: 390px;
